@@ -215,7 +215,7 @@ El Remember Hands Kit no es un simple molde. Es una escultura real, con acabado 
     ],
     resumen: "Tu mano y la patita de tu mejor amigo, juntas en una escultura única.",
     descripcion: `Capturá para siempre la huella de tu mejor amigo. Con este kit vas a poder crear una escultura única con la patita de tu mascota, inmortalizando ese vínculo especial que solo quienes aman a sus animales entienden.
-Este kit incluye una reposición de los materiales por si no salió como esperaban con tu mascota: escribinos por WhatsApp y te mandamos un nuevo envío para que todos puedan hacer la experiencia.
+Este kit incluye una reposición de materiales para que puedan hacer otra figura con tu mascota: escribinos por WhatsApp y te mandamos un nuevo envío.
 ## Por qué te va a encantar
 - Un recuerdo lleno de amor: ideal para perros (y también gatos).
 - Fácil de hacer en casa: no necesitás experiencia previa. Incluye instrucciones paso a paso.
@@ -272,7 +272,7 @@ En dos pasos simples: mezclan el molde, unen las manos 3 minutos, vierten el yes
     imagenes: ["4d2cf1_5569416a52da41928672250ad860e6bc~mv2.webp"],
     resumen: "Todos los insumos del Kit Familiar para repetir la actividad. Reutilizás tu base de madera.",
     descripcion: `¿Quieren volver a intentarlo o hacer otra pose? Te mandamos todo lo que necesitan para repetir la actividad.
-A veces la mezcla no sale exactamente como esperábamos, los dedos se movieron, o simplemente querés hacerlo de nuevo con otro ser querido. Para eso existe el Repuesto Kit Familias.
+Ideal para probar otra pose o repetir la experiencia con otro ser querido. Para eso existe el Repuesto Kit Familias.
 ## Incluye
 - 2 bolsas PASO 1 para molde
 - 2 bolsas PASO 2 polvo de yeso para la figura
@@ -297,7 +297,7 @@ No incluye la base de madera, ya que la del kit original se reutiliza.`,
     imagenes: ["4d2cf1_5569416a52da41928672250ad860e6bc~mv2.webp"],
     resumen: "Todos los insumos del Kit Parejas para repetir la actividad. Reutilizás tu base de madera.",
     descripcion: `¿Quieren volver a intentarlo o hacer otra pose? Te mandamos todo lo que necesitan para repetir la actividad.
-A veces la mezcla no sale exactamente como esperábamos, los dedos se movieron, o simplemente querés hacerlo de nuevo con otro ser querido. Para eso existe el Repuesto Kit Parejas.
+Ideal para probar otra pose o repetir la experiencia con otro ser querido. Para eso existe el Repuesto Kit Parejas.
 ## Incluye
 - 1 polvo para molde (PASO 1)
 - 1 polvo de yeso para la figura

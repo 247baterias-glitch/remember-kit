@@ -66,7 +66,7 @@
     header.innerHTML = `
       <div class="announce"><div class="wrap">${esc(C.anuncio)}</div></div>
       <div class="nav-bar"><div class="wrap nav">
-        <a href="./" class="logo" aria-label="Remember Kit, inicio">${img("8713cb_ff6d7616b0634d79af1bd8ad1e45ab3d~mv2.png", "Remember Hands Kit", "", 'loading="eager" width="180" height="60"')}</a>
+        <a href="./" class="logo" aria-label="Remember Kit, inicio">${img("img/logo.webp", "Remember Hands Kit", "", 'loading="eager" width="900" height="399"')}</a>
         <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu">Menú</button>
         <nav id="menu" class="menu">
           ${navItem("./", "Inicio", "home")}
@@ -89,7 +89,7 @@
       <div class="wave-top" aria-hidden="true"></div>
       <div class="wrap foot-grid">
         <div>
-          ${img("8713cb_ff6d7616b0634d79af1bd8ad1e45ab3d~mv2.png", "Remember Kit", "foot-logo")}
+          ${img("img/logo.webp", "Remember Kit", "foot-logo")}
           <p>Kits para crear en casa una escultura de las manos de las personas que más querés.</p>
         </div>
         <div>
@@ -225,8 +225,8 @@
             ${p.mercadoLibre ? `<a class="btn btn-ml" href="${esc(p.mercadoLibre)}" target="_blank" rel="noopener" data-track="ml" data-prod="${p.id}">Comprar en Mercado Libre</a>` : ""}
           </div>
           <details class="acc" open><summary>Descripción</summary><div class="desc">${renderDesc(p.descripcion)}</div></details>
-          ${p.categoria !== "repuestos" ? `<details class="acc"><summary>¿Te salió mal a la primera?</summary><div class="desc">
-            <p>Sin problema: la primera vez puede traer sorpresas. Tenemos un kit de repuesto con todos los insumos para volver a intentarlo (sin la base de madera, que se reutiliza).</p>
+          ${p.categoria !== "repuestos" ? `<details class="acc"><summary>¿Querés hacer otra figura?</summary><div class="desc">
+            <p>Con el kit de repuesto tenés todos los insumos para crear una nueva escultura: otra pose, otra persona, otro recuerdo. No incluye la base de madera, que se reutiliza.</p>
             <p><a href="producto.html?id=repuesto-kit">Repuesto Kit Parejas</a> · <a href="producto.html?id=extra-repuesto-kit-familias-materiales">Repuesto Kit Familias</a></p></div></details>` : ""}
           <details class="acc"><summary>Envíos y retiros</summary><div class="desc">
             <p>Enviamos a todo el país por Correo Argentino y Andreani. Despachamos dentro de las 24 hs hábiles de acreditado el pago; la entrega estimada es de 2 días hábiles desde el despacho. Te mandamos el número de seguimiento por email.</p>
