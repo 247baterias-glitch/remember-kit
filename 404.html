@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Remember Kit</title>
+  <meta name="robots" content="noindex">
+  <script>
+    // Redirige los links viejos de Wix (anuncios, Instagram, Google) a las páginas nuevas.
+    (function () {
+      var path = location.pathname;
+      var base = "/";
+      if (/\.github\.io$/.test(location.hostname)) base = "/" + path.split("/")[1] + "/";
+      var rest = decodeURIComponent(path.slice(base.length)).replace(/\/+$/, "");
+      var to = null;
+      var m = rest.match(/^product-page\/(.+)$/);
+      if (m) {
+        var slug = m[1];
+        if (/d[ií]a-del-padre|dia-de-la-madre/.test(slug)) slug = "kit-dia-de-la-madre";
+        to = "producto.html?id=" + encodeURIComponent(slug);
+      } else if (/^category\//.test(rest) || rest === "shop" || rest === "cart-page") {
+        to = "productos.html";
+      } else if (/^about/.test(rest)) {
+        to = "quienes-somos.html";
+      } else if (/^contact/.test(rest)) {
+        to = "quienes-somos.html#contacto";
+      }
+      // Conserva los parámetros de campaña (utm, fbclid) para no perder el seguimiento
+      if (to) {
+        var q = location.search.slice(1);
+        var parts = to.split("#");
+        var url = parts[0] + (q ? (parts[0].indexOf("?") < 0 ? "?" : "&") + q : "") + (parts[1] ? "#" + parts[1] : "");
+        location.replace(base + url);
+      }
+    })();
+  </script>
+  <style>
+    body { margin: 0; font-family: "Jost", system-ui, sans-serif; background: #fbfaf7; color: #3a2350; display: grid; place-items: center; min-height: 100vh; text-align: center; padding: 24px; box-sizing: border-box; }
+    a { display: inline-block; margin-top: 16px; background: #3a2350; color: #fff; padding: 12px 24px; border-radius: 999px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>No encontramos esta página</h1>
+    <p>Puede que el link haya cambiado.</p>
+    <a href="/">Ir al inicio</a>
+  </div>
+</body>
+</html>
